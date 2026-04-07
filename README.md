@@ -126,8 +126,8 @@ These constraints mimic real-world investment mandates:
 ## Files
 
 ```
-├── Montecarlo9_cleaned.ipynb   # Main notebook — clean, documented, ready to run
-├── Montecarlo9.py              # Same code as a plain Python script
+├── Montecarlo_GABLE.ipynb   # Main notebook — clean, documented, ready to run
+├── Montecarlo_GABLE.py              # Same code as a plain Python script
 └── README.md                   # This file
 ```
 
@@ -144,7 +144,7 @@ pip install numpy pandas matplotlib yfinance jupyter
 ### Run as a Jupyter Notebook
 
 ```bash
-jupyter notebook Montecarlo9_cleaned.ipynb
+jupyter notebook Montecarlo_GABLE.ipynb
 ```
 
 Open in your browser, then **Run All Cells** (`Kernel → Restart & Run All`).
@@ -152,7 +152,7 @@ Open in your browser, then **Run All Cells** (`Kernel → Restart & Run All`).
 ### Run as a Python script
 
 ```bash
-python Montecarlo9.py
+python Montecarlo_GABLE.py
 ```
 
 > **Note:** The script saves charts as image files and CSV exports to your `~/Downloads` folder.
@@ -359,8 +359,8 @@ These constraints mimic real-world investment mandates:
 ## Files
 
 ```
-├── Montecarlo9_cleaned.ipynb   # Main notebook — clean, documented, ready to run
-├── Montecarlo9.py              # Same code as a plain Python script
+├── Montecarlo_GABLE.ipynb   # Main notebook — clean, documented, ready to run
+├── Montecarlo_GABLE.py              # Same code as a plain Python script
 └── README.md                   # This file
 ```
 
@@ -377,7 +377,7 @@ pip install numpy pandas matplotlib yfinance jupyter
 ### Run as a Jupyter Notebook
 
 ```bash
-jupyter notebook Montecarlo9_cleaned.ipynb
+jupyter notebook Montecarlo_GABLE_cleaned.ipynb
 ```
 
 Open in your browser, then **Run All Cells** (`Kernel → Restart & Run All`).
@@ -385,7 +385,7 @@ Open in your browser, then **Run All Cells** (`Kernel → Restart & Run All`).
 ### Run as a Python script
 
 ```bash
-python Montecarlo9.py
+python Montecarlo_GABLE.py
 ```
 
 > **Note:** The script saves charts as image files and CSV exports to your `~/Downloads` folder.
