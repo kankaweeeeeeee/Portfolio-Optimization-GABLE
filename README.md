@@ -6,7 +6,7 @@ A Python/Jupyter project that uses Monte Carlo simulation and Markov regime-swit
 
 ## What This Project Does
 
-1. **Simulates 1-year returns** across Bear / Base / Bull economic scenarios using 20,000 Monte Carlo paths per scenario.
+1. **Simulates 1-year returns** across Bear / Base / Bull economic scenarios using 100,000 Monte Carlo paths per scenario.
 2. **Stress-tests risk** with VaR (5%) and CVaR (95%) across all three scenarios.
 3. **Optimizes portfolio weights** for both 1-year and 5-year horizons, subject to regulatory-style constraints.
 4. **Models long-run regime shifts** using a 3-state Markov chain (Bear → Base → Bull) over a 5-year horizon with 100,000 simulation paths.
@@ -163,7 +163,7 @@ python Montecarlo_GABLE.py
 ## About the Simulation Methods
 
 ### Monte Carlo (1-Year)
-Each simulation draws 20,000 random portfolio returns from a multivariate log-normal distribution using the asset covariance matrix. Bear/Base/Bull scenarios shift the underlying parameters before sampling.
+Each simulation draws 100,000 random portfolio returns from a multivariate log-normal distribution using the asset covariance matrix. Bear/Base/Bull scenarios shift the underlying parameters before sampling.
 # Monte Carlo Portfolio Optimization
 
 A Python/Jupyter project that uses Monte Carlo simulation and Markov regime-switching to optimize a ฿1 billion (THB) multi-asset portfolio across 15 stocks spanning Thai equities, US tech, gold, and cash.
@@ -172,7 +172,7 @@ A Python/Jupyter project that uses Monte Carlo simulation and Markov regime-swit
 
 ## What This Project Does
 
-1. **Simulates 1-year returns** across Bear / Base / Bull economic scenarios using 20,000 Monte Carlo paths per scenario.
+1. **Simulates 1-year returns** across Bear / Base / Bull economic scenarios using 100,000 Monte Carlo paths per scenario.
 2. **Stress-tests risk** with VaR (5%) and CVaR (95%) across all three scenarios.
 3. **Optimizes portfolio weights** for both 1-year and 5-year horizons, subject to regulatory-style constraints.
 4. **Models long-run regime shifts** using a 3-state Markov chain (Bear → Base → Bull) over a 5-year horizon with 100,000 simulation paths.
@@ -397,7 +397,7 @@ python Montecarlo_GABLE.py
 
 ### Monte Carlo (1-Year)
 
-Each simulation draws 20,000 random portfolio returns from a multivariate log-normal distribution using the asset covariance matrix. Bear/Base/Bull scenarios shift the underlying parameters before sampling.
+Each simulation draws 100,000 random portfolio returns from a multivariate log-normal distribution using the asset covariance matrix. Bear/Base/Bull scenarios shift the underlying parameters before sampling.
 
 ### Markov Regime-Switching (5-Year)
 
